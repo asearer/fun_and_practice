@@ -1,4 +1,8 @@
 function maxSubArraySum(arr) {
+    if (arr.length === 0) {
+        return 0; // Or throw an error, or return null/undefined based on the desired behavior when array is empty
+    }
+
     let maxCurrent = arr[0];
     let maxGlobal = arr[0];
 
@@ -11,3 +15,5 @@ function maxSubArraySum(arr) {
 
     return maxGlobal;
 }
+
+module.exports = maxSubArraySum;
