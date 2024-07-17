@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+:focus {
+  
+  background-color: rgb(249, 149, 7);
+}
+
+body {
+  background-image: linear-gradient(to left, orangered, yellow);
+}
+
+input {
+  
+  background-color: rgb(249, 149, 7);
+  
+  
+}
+
+
+.search-container input,
+.search-container .suggestions {
+  position: relative;
+  top: 250px;
+  left: 35%;
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  
+}
+
+.search-container input {
+  border: none;
+  border-bottom: 2px solid orangered;
+  outline: none;
+  
+}
+
+ul  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -9px;
+  width: 100%;
+  
+}
+
+ul.has-suggestions {
+  display: block;
+  max-width: 100%;
+}
+
+ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: orangered;
+  max-width: 100%;
+  
+}
+
+input {
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+
